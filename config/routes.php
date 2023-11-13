@@ -21,4 +21,14 @@ return [
         'model' => 'registry',
         'view' => 'auth/registry',
     ],
+    '#^login?#' => [
+        'controller' => 'login',
+        'model' => 'login',
+        'view' => '',
+    ],
+    '#^auth/login?#' => [
+        'controller' => 'login',
+        'model' => 'login',
+        'view' => 'auth/login',
+    ],
 ];
